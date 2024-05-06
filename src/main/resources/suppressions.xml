@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+	"-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+	"https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+	<suppress files="." checks="InvalidJavadocPosition"/>
+	<suppress files="." checks="JavadocMethod"/>
+	<suppress files="." checks="JavadocPackage"/>
+	<suppress files="." checks="JavadocVariable"/>
+	<suppress files="." checks="MissingJavadocMethod"/>
+	<suppress files="." checks="JavadocPackage"/>
+
+	<suppress files="ApiApplication.java" checks="HideUtilityClassConstructor"/>
+
+	<suppress files="BaseController.java" checks="."/>
+
+	<suppress files=".*Unique.java" checks="LineLengthCheck"/>
+	<suppress files=".*Config.java" checks="LineLengthCheck"/>
+	<suppress files=".*Repository.java" checks="LineLengthCheck"/>
+	<suppress files="UniqueIdGenerator.java" checks="LineLengthCheck"/>
+
+	<suppress files=".*Config.java" checks="DesignForExtension"/>
+</suppressions>
